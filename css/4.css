@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Alegreya SC';
+    src: url('AlegreyaSC-Black.woff2') format('woff2'),
+        url('AlegreyaSC-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    font-family: 'Alegreya SC';
+}
+
+
+
+header {
+    padding: 50px 0; 
+}
+header nav ul
+{
+    list-style:none;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li 
+{
+    display: inline-block;
+}
+
+
+header nav ul li:not(.active) a:hover
+{
+    border-bottom: 5px solid #DC7000;
+}
+header nav ul li.active::after
+{
+    content: '';
+    display: block;
+    width: 40px;
+    height: 5px;
+    background: #FA9021;
+    border-radius: 10px;
+    
+}

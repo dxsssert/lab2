@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 942px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main {
+    width: 600px;
+    height: 500px;                 
+    padding-left: 250px;
+}
+
+.additional {
+    display: flex;
+}
+
+.main_image {
+    width: 400px;
+    height: 400px;
+}
+
+.additional_images {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ddd;
+}
+
+.link {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    
+}
+
+.link:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-color: #888;
+}
+
+div.container{
+    margin: 0 auto 30px;
+    border: 1px solid #ddd;
+}
